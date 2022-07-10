@@ -64,7 +64,7 @@
                 <configuration>
                     <appName>sda-jenkins-demo</appName>
                     <processTypes>
-                        <web>java -jar target/${project.build.finalName}.jar</web>
+                        <web>java -jar -Dserver.port=8080 target/jenkins-demo-0.0.1-SNAPSHOT.jar</web>
                     </processTypes>
                 </configuration>
             </plugin>
