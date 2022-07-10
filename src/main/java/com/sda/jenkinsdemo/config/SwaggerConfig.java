@@ -1,4 +1,4 @@
-package com.sda.jenkinsdemo;
+package com.sda.jenkinsdemo.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
