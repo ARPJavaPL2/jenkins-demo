@@ -14,7 +14,7 @@ class JenkinsDemoApplicationTests {
 
     @Test
     void testTest() {
-        assertTrue(true);
+        assertTrue(false);
     }
 
 }
