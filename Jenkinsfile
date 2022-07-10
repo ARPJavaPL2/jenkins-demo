@@ -16,10 +16,5 @@ pipeline {
                 sh "mvn test"
            }
         }
-        stage('Info') {
-           steps {
-                sh "echo All done."
-           }
-        }
     }
 }
