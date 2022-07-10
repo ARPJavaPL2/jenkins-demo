@@ -64,7 +64,7 @@
                 <configuration>
                     <appName>sda-jenkins-demo</appName>
                     <processTypes>
-                        <web>java -jar ${project.build.finalName}.jar</web>
+                        <web>java -jar target/${project.build.finalName}.jar</web>
                     </processTypes>
                 </configuration>
             </plugin>
